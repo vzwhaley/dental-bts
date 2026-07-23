@@ -55,7 +55,7 @@ const year = new Date().getFullYear();
         </div>
 
         <footer class="relative z-10 mt-16 text-sm text-slate-500">
-            <p>&copy; {{ year }} {{ title }}</p>
+            <p>&copy; {{ year }} {{ title }}. All Rights Reserved.</p>
             <p class="mt-1">
                 a
                 <a
