@@ -48,14 +48,25 @@ const year = new Date().getFullYear();
 
             <p class="mt-8 max-w-lg text-balance text-lg leading-relaxed text-slate-600">
                 We're building a better experience for dental practice billing and team training.
-                Our new site is on its way.
+                Our new website is on its way.
             </p>
 
             <div class="mt-10 h-px w-24 bg-slate-300/70" aria-hidden="true"></div>
         </div>
 
         <footer class="relative z-10 mt-16 text-sm text-slate-500">
-            &copy; {{ year }} {{ title }}
+            <p>&copy; {{ year }} {{ title }}</p>
+            <p class="mt-1">
+                a
+                <a
+                    href="https://moonwhale.media"
+                    target="_blank"
+                    rel="noopener"
+                    class="font-medium text-teal-600 underline-offset-2 hover:underline"
+                    >moonwhale.media</a
+                >
+                production
+            </p>
         </footer>
     </main>
 </template>
