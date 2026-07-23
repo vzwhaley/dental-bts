@@ -10,7 +10,7 @@ dentalbts.com — **Laravel 13 + Vue 3 + Vite + Tailwind 4**. Hosted on Cloudway
 | **Cloudways Web Root** | `public_html/public` |
 | Staging URL | https://phpstack-1647922-6572215.cloudwaysapps.com |
 | Production | https://dentalbts.com |
-| Local dev | `dental-bts.test` (Herd) |
+| Local dev | `https://dentalbts.test` (Herd) |
 | Deploy | `./deploy.sh` (must be on `main`, committed + pushed) |
 
 ## Current state
@@ -25,7 +25,9 @@ composer install
 npm install
 npm run dev      # Vite dev server + HMR
 ```
-Visit https://dental-bts.test (Herd).
+The site is served by **Herd** at **https://dentalbts.test** (Herd link name
+`dentalbts`, secured). Run `herd link dentalbts` from this folder if the link is
+ever missing.
 
 ## Deploy
 `./deploy.sh` builds assets locally (`npm run build`), rsyncs the app to the
